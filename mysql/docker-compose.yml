@@ -1,0 +1,11 @@
+mysql:
+    image: mysql:8.0
+    container_name: recommender_data
+    ports:
+      - 3306:3306
+    expose:
+      - "3306"
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_USER=eugenio
+      - MYSQL_PASSWORD=eugenio
