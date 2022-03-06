@@ -1,0 +1,5 @@
+pickle5
+torch
+flask==2.0.3
+numpy==1.21.2
+pandas==1.2.5
